@@ -1,0 +1,26 @@
+@import "_header";
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 0px 0px 0px;
+
+    .header {
+        background-color: cadetblue;
+    }
+
+    .block {
+        font-size: 14px;
+
+        &__item {
+            font-size: 12px;
+        }
+
+        &__element {
+            background-color: chartreuse;
+        }
+    }
+
+    
+}
